@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 
 # Get API key from environment or use default
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDWD0y9Ay_rF21Ec9Fz7p_IK4quFYoQ2aY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_NAME = "gemini-2.5-flash"
 
 
